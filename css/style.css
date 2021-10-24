@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../images/Halloween-Day.png);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: xx-large;
+}
+nav .menu{
+    margin-right: 30px;
+}
+nav ul li{
+    padding: 10px 15px;
+    background: teal;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+    background: orange;
+    cursor: pointer
+}
+.active{
+    background: #aaa;
+}
+section{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 32%;
+    box-shadow: 0 4px 4px rgba(red, green, blue, alpha);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #eee;
+    margin-top: 20px;
+}
+.img img{
+    width: 35%;
+}
+.img{
+    text-align: center;
+}
+.card h2{
+    font-weight: 300;
+    color:#aaa;
+    text-transform: uppercase;
+    text-align: center;
+}
+.group i{
+    color: orange;
+    padding: 10px;
+    margin-left: 50px;
+}
+.group .icon{
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+}
+.card .text h2{
+    font-size: 30px;
+
+}
+.contaner{
+    background-color: #eee;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contaner ul li a{
+    text-decoration:none;
+}
+.contaner li{
+    margin-left: 50px;
+    list-style: none;
+    padding: 5px;
+}
+.contaner a{
+    background-color: teal;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.tt{
+    font-weight: 300;
+    font-size: 30px;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.icon2{
+    margin-top: 40px;
+}
+span{
+    margin-left: 50px;
+}
+.icon2 a:hover{
+    background: orange;
+}
